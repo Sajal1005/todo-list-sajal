@@ -3,9 +3,9 @@ import React from 'react'
 const style ={
   li: `flex justify-between bg-slate-200 p-4 my-2 capitalize`,
   liComplete: `flex justify-between bg-slate-400 p-4 my-2 capitalize`,
-  row: `flex`,
-  text: `ml-4 font-medium text-xl cursor-pointer`,
-  textComplete: ` line-through ml-2 cursor-pointer`,
+  row: `flex `,
+  text: `ml-4 font-medium text-xl cursor-pointer break-words text-ellipsis max-w-[140px] sm:max-w-[550px] md:max-w-[600px]`,
+  textComplete: ` line-through ml-2 cursor-pointer break-words text-ellipsis max-w-[140px] sm:max-w-[550px] md:max-w-[600px]`,
   newb: `cursor-pointer flex items-center `
 
 }
